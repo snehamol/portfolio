@@ -1,0 +1,217 @@
+.im{
+    width: 350px;
+     border-radius: 50%; 
+    margin-top: 50px;
+
+}
+.column{
+    
+     height: max-content;
+    color: white;
+    /* background-color: gray; */
+    margin-top: 0px;
+    background-image: url("https://st3.depositphotos.com/3008028/15424/i/450/depositphotos_154247912-stock-photo-beautiful-texture-background.jpg");
+    animation: grow 1s;
+}
+@keyframes grow {
+    0% { transform: scale(.2); }
+  100% { transform: scale(1); }
+}
+.mar{
+    margin-top: 100px;
+}
+
+.im:hover{
+    transform: scale(1.2);
+    transform: scale(1.1);
+    border: 1px solid white;
+}
+
+.bt{
+    margin-left: 10px;
+}
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 67px;
+}
+.raw{
+    height: 450px;
+    background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    color: black;
+    text-align: center;
+    animation: grow 1s;
+}
+.raw1{
+    background-image: url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80');
+    color: black;
+    height: 450px;
+    text-align: center;
+    animation: grow 1s;
+    
+}
+.edu{
+    margin-top: 60px;
+}
+.raw2{
+    background-image: url('https://media.istockphoto.com/id/1146532466/photo/abstract-blue-digital-background.webp?b=1&s=170667a&w=0&k=20&c=dSA5-nFFQ2szrdDxg8qHy67azMPkshnzPgtBgSsECkY=');
+    height: 450px;
+    color: white;
+    text-align: center;
+    animation: grow 1s;
+}
+.raw3{
+    background-image: url('https://wallpapers.com/images/featured/social-media-icons-background-4tp8d0vhl6k374ih.jpg');
+    height: 450px;
+    text-align: center;
+    animation: grow 1s;
+}
+
+a{
+    font-size: x-large;
+    color: black;
+}
+.name{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-shadow: 2px 2px red;
+   
+
+}
+
+.card{
+    border: 1px solid;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.mern{
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 60px;
+  }
+  .mern span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+
+  @keyframes mern {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+  .raw5{
+    height: 450px;
+    text-align: center;
+    background-color: blue;
+    animation: grow 1s;
+    margin-left: 50px;
+  }
+  .nav{
+    background-color: black;
+  }
+
+
+
+  .wrapper.ten {
+    background-color: blue;
+}
+.bounce {
+    font-size: 2Rem;
+    width: 50%;
+    margin: 2rem auto;
+    display: inline-flex;
+    justify-content: center;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, #211e1e2e);
+}
+.bounce span {
+    display: inline-flex;
+    color: #c7f4ff;
+    font-family: "Play", sans-serif;
+    animation: bounce 1s infinite;
+}
+@keyframes bounce {
+    0%,
+    50%,
+    100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20px);
+    }
+}
+.ten span:nth-of-type(1) {
+    animation-delay: 0.1s;
+}
+.ten span:nth-of-type(2) {
+    animation-delay: 0.2s;
+}
+.ten span:nth-of-type(3) {
+    animation-delay: 0.3s;
+}
+.ten span:nth-of-type(4) {
+    animation-delay: 0.4s;
+}
+.ten span:nth-of-type(5) {
+    animation-delay: 0.5s;
+}
+.ten span:nth-of-type(6) {
+    animation-delay: 0.6s;
+}
+.ten span:nth-of-type(7) {
+    animation-delay: 0.7s;
+}
+.ten span:nth-of-type(8) {
+    animation-delay: 0.8s;
+}
+.ten span:nth-of-type(9) {
+    animation-delay: 0.9s;
+}
+.ten span:nth-of-type(10) {
+    animation-delay: 0.10s;
+}
+.ten span:nth-of-type(11) {
+    animation-delay: 0.11s;
+}
+.ten span:nth-of-type(12) {
+    animation-delay: 0.12s;
+}
+.ten span:nth-of-type(13) {
+    animation-delay: 0.13s;
+}
+.ten span:nth-of-type(14) {
+    animation-delay: 0.14s;
+}
+.ten span:nth-of-type(15) {
+    animation-delay: 0.15s;
+}
+.ten span:nth-of-type(16) {
+    animation-delay: 0.16s;
+}
+.ten span:nth-of-type(17) {
+    animation-delay: 0.17s;
+}
+.ten span:nth-of-type(18) {
+    animation-delay: 0.18s;
+} */
+.tbl{
+    width: 10px;
+}
+
+.para{
+    font-size: x-large;
+}
+
+
+
+
